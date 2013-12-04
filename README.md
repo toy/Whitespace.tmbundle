@@ -1,6 +1,6 @@
-# Strip Whitespace On Save
+# Ensure New Line at the EOF
 
-TextMate 2 bundle: Strips trailing whitespace from current document when saving. Works nicely with my [Save On Focus Lost bundle](https://github.com/bomberstudios/Save-On-Focus-Lost.tmbundle). If you need whitespace highlighting, check the superb [Whitespace bundle by Mads Hartmann](http://mads379.github.com/posts/whitespace-tmbundle).
+TextMate 2 bundle: Adds new line at EOL if missing in current document when saving. Inspired by [Strip Whitespace On Save by Ale Muñoz](https://github.com/bomberstudios/Strip-Whitespace-On-Save.tmbundle).
 
 ## Installation
 
