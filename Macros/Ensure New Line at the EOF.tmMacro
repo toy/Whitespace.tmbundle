@@ -12,7 +12,7 @@
 				<key>findInProjectIgnoreCase</key>
 				<true/>
 				<key>findString</key>
-				<string>[\t ]+$</string>
+				<string>([^\n])\z</string>
 				<key>ignoreCase</key>
 				<true/>
 				<key>regularExpression</key>
@@ -20,19 +20,19 @@
 				<key>replaceAllScope</key>
 				<string>document</string>
 				<key>replaceString</key>
-				<string></string>
+				<string>$1\n</string>
 				<key>wrapAround</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>command</key>
 			<string>findWithOptions:</string>
 		</dict>
 	</array>
 	<key>name</key>
-	<string>Strip Whitespace on Save</string>
+	<string>Ensure New Line at the EOF</string>
 	<key>semanticClass</key>
 	<string>callback.document.will-save</string>
 	<key>uuid</key>
-	<string>490A8E3F-5A6E-4F9C-B8BC-E66309774883</string>
+	<string>A99EB78A-A675-994F-0D5C-7A354503B9AF</string>
 </dict>
 </plist>
