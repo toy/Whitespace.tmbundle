@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>contactEmailRot13</key>
-	<string>nyr@obzorefghqvbf.pbz</string>
+	<string>zfm@frag.pbz</string>
 	<key>contactName</key>
-	<string>Ale Muñoz</string>
+	<string>Michal Szyndel</string>
 	<key>description</key>
-	<string>Strips trailing whitespace from current document when saving</string>
+	<string>Adds new line at EOF if missing</string>
 	<key>name</key>
-	<string>Strip Whitespace On Save</string>
+	<string>Ensure New Line at the EOF</string>
 	<key>uuid</key>
 	<string>102BE3F9-8E63-4BAA-B8A0-EED6E986E8C5</string>
 </dict>
