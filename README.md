@@ -4,7 +4,7 @@ TextMate 2 bundle: Adds new line at EOL if missing in current document when savi
 
 ## Installation
 
-- Clone the git repo to  `~/Library/Application Support/Avian/Bundles`
+- Clone the git repo to  `~/Library/Application Support/Textmate/Bundles`
 - Relaunch TextMate 2
 
 ## Customization using `.tm_properties`
