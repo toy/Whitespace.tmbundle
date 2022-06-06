@@ -10,13 +10,13 @@
 				<key>action</key>
 				<string>replaceAll</string>
 				<key>findString</key>
-				<string>([^\n])\n*\z</string>
+				<string>(?:(?&lt;=[^\n])|\n{2,})\z</string>
 				<key>regularExpression</key>
 				<true/>
 				<key>replaceAllScope</key>
 				<string>document</string>
 				<key>replaceString</key>
-				<string>$1\n</string>
+				<string>\n</string>
 			</dict>
 			<key>command</key>
 			<string>findWithOptions:</string>
