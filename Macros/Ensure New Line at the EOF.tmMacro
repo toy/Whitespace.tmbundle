@@ -24,8 +24,8 @@
 	</array>
 	<key>name</key>
 	<string>Ensure New Line at the EOF</string>
-  <key>scope</key>
-  <string>* - attr.do-not-ensure-new-line</string>
+	<key>scope</key>
+	<string>-attr.do-not-ensure-new-line-at-the-eof</string>
 	<key>semanticClass</key>
 	<string>callback.document.will-save</string>
 	<key>uuid</key>
