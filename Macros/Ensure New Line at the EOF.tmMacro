@@ -9,20 +9,14 @@
 			<dict>
 				<key>action</key>
 				<string>replaceAll</string>
-				<key>findInProjectIgnoreCase</key>
-				<true/>
 				<key>findString</key>
 				<string>([^\n])\n*\z</string>
-				<key>ignoreCase</key>
-				<true/>
 				<key>regularExpression</key>
 				<true/>
 				<key>replaceAllScope</key>
 				<string>document</string>
 				<key>replaceString</key>
 				<string>$1\n</string>
-				<key>wrapAround</key>
-				<false/>
 			</dict>
 			<key>command</key>
 			<string>findWithOptions:</string>
